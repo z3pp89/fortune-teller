@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune teller</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune teller</h2>
+      </div>
+      <form id="fortune-teller">
+        <div class="form-group">
+          <p>What unlucky events have occured to you in the last month?</p>
+          <input type="checkbox" name="question1" value="cat">Seeing a black cat.<br>
+          <input type="checkbox" name="question1" value="latter">Walking under a ladder.<br>
+          <input type="checkbox" name="question1" value="toe">Stubbing your toe.<br>
+          <input type="checkbox" name="question1" value="mirror">Breaking a mirror.<br>
+          <p>What lucky events have occured to you in the last month?</p>
+          <input type="checkbox" name="question2" value="clover">Finding a four-leaf clover.<br>
+          <input type="checkbox" name="question2" value="rainbow">Seeing a rainbow.<br>
+          <input type="checkbox" name="question2" value="drink">Spilling a drink on yourself.<br>
+          <input type="checkbox" name="question2" value="penny">Finding a penny on the street.<br>
+        </div><br>
+       <button type="submit">Submit Survey</button><br>
+      </form>
+      <span id="fortune">
+        <p><b>This is your fortune:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
